@@ -86,3 +86,65 @@ button:hover {
 .tim h6 {
   font-weight: normal;
 }
+
+/* MAIN */
+main {
+  margin: 10px;
+}
+
+main p {
+  border-radius: 20px;
+  padding: 50px;
+  background-color: #c8c8c8;
+}
+
+.evidenziato {
+  background-color: #20a9e5;
+}
+
+ul {
+  margin: 50px;
+}
+
+/* tabella */
+table {
+  border-top: 4px solid #0d719b;
+  border-bottom: 4px solid #0d719b;
+  border-radius: 20px;
+  width: 100%;
+}
+
+thead {
+  background-color: #20a9e5;
+  color: white;
+  text-align: left;
+}
+
+th,
+td {
+  padding: 10px;
+}
+
+.lcella {
+  width: 25%;
+}
+
+th:first-child {
+  border-radius: 17px 0 0 0;
+}
+
+th:last-child {
+  border-radius: 0 17px 0 0;
+}
+
+.azzurro {
+  background-color: #b1e5f2;
+}
+
+.azzurro:last-child td:first-child {
+  border-radius: 0 0 0 17px;
+}
+
+.azzurro:last-child td:last-child {
+  border-radius: 0 0 17px 0;
+}
