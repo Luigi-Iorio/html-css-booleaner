@@ -1,0 +1,88 @@
+/* RESET CSS */
+* {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+/* HEADER */
+.pattern {
+  background-color: #4ea0ff;
+  background-image: url(../img/pattern.png);
+  background-size: contain;
+  background-repeat: repeat;
+  background-position: top;
+}
+
+.pattern img {
+  padding: 50px 0 0 10px;
+  width: 200px;
+  height: 50%;
+}
+
+h1 {
+  font-size: 50px;
+  line-height: 50px;
+}
+
+.cont {
+  padding: 0 20px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.titolo {
+  width: 50%;
+  padding: 10px;
+}
+
+.titolo h5 {
+  font-size: 18px;
+  color: #808080;
+}
+
+.titolo h6 {
+  font-size: 14px;
+  font-weight: normal;
+  color: #808080;
+}
+
+.titolo h5 span {
+  color: #20a9e5;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: #20a9e5;
+  color: white;
+  transition: 0.5s;
+}
+
+button:hover {
+  cursor: pointer;
+  transition: 0.5s;
+  background-color: #0d719b;
+}
+
+.tim {
+  width: 50%;
+}
+
+.tim .tim1 {
+  height: 100%;
+  width: 100%;
+}
+
+.tim h6 {
+  font-weight: normal;
+}
