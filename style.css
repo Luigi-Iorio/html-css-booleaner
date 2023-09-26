@@ -11,7 +11,7 @@
 .pattern {
   background-color: #4ea0ff;
   background-image: url(img/pattern.png);
-  background-size: contain;
+  background-size: 25%;
   background-repeat: repeat;
   background-position: top;
 }
