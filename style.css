@@ -75,6 +75,7 @@ main {
 
 ul {
   margin-left: 10px;
+  list-style: inside;
 }
 
 /* tabella */
